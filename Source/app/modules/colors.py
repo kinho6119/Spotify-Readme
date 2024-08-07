@@ -1,7 +1,7 @@
 class COLORS:
     SPOTIFY_GREEN: str = "1ED760"
-    GITHUB_LIGHT: str = "F6F8FA"
-    GITHUB_DARK: str = "161B22"
+    GITHUB_LIGHT: str = "00000000"
+    GITHUB_DARK: str = "00000000"
 
     WHITE: str = "FFFFFF"
     GREY: str = "808080"

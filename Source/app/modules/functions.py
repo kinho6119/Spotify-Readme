@@ -168,6 +168,10 @@ def make_svg_widget() -> str:
         refresh_token=ENV_VARS.REFRESH_TOKEN,
     )
     template_variables = prepare_widget_template_variables(parsed_args, spotify_api)
+
+    # 添加边框样式
+    template_variables['border_style'] = "border: 2px solid #000; padding: 10px; border-radius: 5px;"
+
     return render_template("widget.html", **template_variables)
 
 
